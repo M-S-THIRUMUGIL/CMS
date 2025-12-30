@@ -9,7 +9,7 @@ import { useState } from "react";
 
 
 const Contact = () => {
-          const SCHOOL_WHATSAPP = "919578134221"; // no +
+          const SCHOOL_WHATSAPP = "916385697119"; // no +
 
           const [formData, setFormData] = useState({
           parentName: "",
