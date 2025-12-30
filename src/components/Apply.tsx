@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../apply.css";
 import Header from "./Header";
 
-const WHATSAPP_NUMBER = "919578134221";
+const WHATSAPP_NUMBER = "916385697119";
 
 const Apply: React.FC = () => {
   const [formData, setFormData] = useState({
