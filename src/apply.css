@@ -1,0 +1,96 @@
+/* Apply Page Styles - Crescent Matriculation School */
+    
+.apply-page {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #eef6ff, #ffffff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.apply-card {
+  background: #ffffff;
+  border-radius: 22px;
+  padding: 40px;
+  width: 100%;
+  max-width: 620px;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.08);
+}
+
+.apply-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1e3a8a;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.apply-subtitle {
+  text-align: center;
+  color: #64748b;
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+
+.apply-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.apply-form input,
+.apply-form select,
+.apply-form textarea {
+  padding: 14px 16px;
+  border-radius: 14px;
+  border: 1px solid #c7d2fe;
+  font-size: 15px;
+  outline: none;
+  transition: all 0.25s ease;
+}
+
+.apply-form input:focus,
+.apply-form select:focus,
+.apply-form textarea:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+}
+
+.apply-form textarea {
+  resize: none;
+}
+
+.apply-btn {
+  margin-top: 10px;
+  padding: 15px;
+  border-radius: 16px;
+  border: none;
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.apply-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 25px rgba(59, 130, 246, 0.35);
+}
+
+.apply-btn:active {
+  transform: scale(0.98);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .apply-card {
+    padding: 28px 22px;
+  }
+
+  .apply-title {
+    font-size: 26px;
+  }
+}
